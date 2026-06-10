@@ -21,7 +21,7 @@ public class Transaction {
     @JoinColumn(name = "userId")
     @JsonIgnore
     private User user;
-    private Integer amount;
+    private Long amount;
     private String fromIban;
     private String toIban;
     private LocalDateTime createdAt;

@@ -18,6 +18,6 @@ public class Account {
     @ManyToOne
     @JoinColumn(name = "userId")
     private User user;
-    private Integer balance;
+    private Long balance;
     private String iban;
 }
